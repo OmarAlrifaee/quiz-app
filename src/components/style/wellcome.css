@@ -1,0 +1,7 @@
+.wellcome {
+  height: 100vh;
+  background-color: #5c5470;
+  h1 {
+    font-size: 80px;
+  }
+}

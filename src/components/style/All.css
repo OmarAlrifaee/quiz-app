@@ -1,0 +1,7 @@
+.all-answers {
+  min-height: 100vh;
+  background-color: #5c5470;
+}
+a {
+  width: fit-content;
+}
