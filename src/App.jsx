@@ -4,9 +4,9 @@ import Game from "./components/Game";
 import WellComePage from "./components/WellComePage";
 import AllAnswers from "./components/AllAnswers";
 import { RouterProvider } from "react-router-dom";
-import { createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 
-const Router = createHashRouter([
+const Router = createBrowserRouter([
   { path: "/", element: <WellComePage /> },
   { path: "/game", element: <Game /> },
   { path: "/answers", element: <AllAnswers /> },
